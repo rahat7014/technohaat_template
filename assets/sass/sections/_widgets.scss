@@ -1,0 +1,36 @@
+/*---------------------------------------------------
+	widget styles
+----------------------------------------------------*/
+.footer-widget {
+	.title {
+		font-size: 24px;
+		font-weight: 600;
+		margin-bottom: 21px;
+	}
+	.widget-list {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 54px;
+		li {
+			a {
+				font-size: 17px;
+				color: #3E3E3E;
+				line-height: 45px;
+				transition: 0.4s;
+				&:hover {
+					color: var(--main-color);
+					margin-left: 2px;
+				}
+			}
+			img {
+				margin: 19px 0 16px;
+			}
+		}
+	}
+	.widget-payment {
+		a {
+			margin: 2px;
+			display: inline-block;
+		}
+	}
+}
